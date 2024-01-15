@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-//ek number ko binary me kaise convert karenge
-//0 1 2 4 8 16 32 64 .... matlab 2 ke power
 int main(){
     int a = 9;
     int binary[100
