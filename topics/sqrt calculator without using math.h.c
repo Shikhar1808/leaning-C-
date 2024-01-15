@@ -1,30 +1,15 @@
 #include <stdio.h>
 int main(){
-    int a;
+    float a;
     printf("\nEnter a positive number: ");
     scanf("%f",&a);
-    int b =3;
-    int c = 0;
-    int i;
-    int d;
-    while(c=1){
-        for(i =1; i < a; i++){
-            if( a%i == 0){
-                break;
-            }
-        }
-        for(int j = 1; j = b; j++){
-            d *= i;
-        }
-        if(d == a){
+    float c = 1;
+    while(c<=a){
+        if(a <= c*c){
             break;
         }
-        c++;
-        // if(a <= c*c){
-        //     break;
-        // }
-        // c+=0.0001;
+        c+=0.0001;
     }
-    printf("\nAns %.3f", i);
+    printf("\nAns %.3f", c);
     return 0;
 }
