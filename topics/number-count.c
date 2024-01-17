@@ -17,8 +17,6 @@ int main(){
 
         if (freq[i] != 0) {
             freq[i] = count;
-        }
-        if( freq[i] != 0){
             printf("\nThe number of time %d occurs is %d", array[i], freq[i]);
         }
     }
